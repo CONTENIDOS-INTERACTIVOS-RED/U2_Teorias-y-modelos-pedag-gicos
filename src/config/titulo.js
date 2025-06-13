@@ -1,1 +1,1 @@
-module.exports = 'Carácter Epistemológico de la Pedagogía y Modelos Pedagógicos'
+module.exports = 'Teorías del aprendizaje'

@@ -1,8 +1,7 @@
 export default {
   global: {
-    numeroUnidad: '1',
-    tituloUnidad:
-      'Carácter Epistemológico de la Pedagogía y Modelos Pedagógicos',
+    numeroUnidad: '2',
+    tituloUnidad: 'Teorías del aprendizaje',
   },
   menuPrincipal: {
     menu: [
@@ -16,13 +15,13 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Definición de Pedagogía',
+        titulo: 'Teoría conductista',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Precursores y aportes a la definición de la pedagogía',
+            titulo: 'Aplicación de la Teoría Conductista en la Educación',
             hash: 't_1_1',
           },
         ],
@@ -31,14 +30,20 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Definición modelos pedagógicos',
+        titulo: 'Teoría cognitivista',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Tipología de los modelos',
+            titulo: 'Componentes de la teoría cognitivista',
             hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Beneficios de la teoría cognitivista en la educación',
+            hash: 't_2_2',
           },
         ],
       },
@@ -46,9 +51,37 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Componentes',
+        titulo: 'Teoría constructivista',
         desarrolloContenidos: true,
-        subMenu: [],
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Componentes de la teoría constructivista',
+            hash: 't_3_1',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Teoría conectivista',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.1',
+            titulo: 'La red es el aprendizaje en el conectivismo',
+            hash: 't_4_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.2',
+            titulo: 'Componentes de la teoría conectivista',
+            hash: 't_4_2',
+          },
+        ],
       },
       {
         nombreRuta: 'sintesis',
@@ -88,143 +121,138 @@ export default {
   referencias: [
     {
       referencia:
-        'Brailovsky, D. (2018). ¿Qué hace la pedagogía y por qué es importante para los educadores. Ediciones DECEDUCANDO, Blog educativo.',
+        'Moreno, P. (2024). La teoría conductista y su aplicación en la educación.',
+      link: 'https://blog.centrodeelearning.com/teoria-conductista/',
+    },
+    {
+      referencia:
+        'Bobadilla Ramírez, D. (2010). El conductismo orígenes, trayectoria y significado. ResearchGate.',
       link:
-        'https://ia800704.us.archive.org/15/items/QuHaceLaPedagogaYPorQuEsImportanteParaLosEducadores/Qué%20hace%20la%20Pedagogía%20y%20por%20qué%20es%20importante%20para%20los%20educadores.pdf',
+        'https://www.researchgate.net/publication/266261125_EL_CONDUCTISMO_ORIGENES_TRAYECTORIA_Y_SIGNIFICADO',
     },
     {
       referencia:
-        'Universidad de los Andes. (2023, septiembre 21). Pedagogía: concepto, importancia y evolución en la educación.',
-      link: 'https://programas.uniandes.edu.co/blog/pedagogia',
+        'Torres, A. (2024). Conductismo: historia, conceptos y autores principales.',
+      link: 'https://psicologiaymente.com/psicologia/conductismo',
     },
     {
-      referencia: 'Veschi, B. (2019). Origen de la Palabra Pedagogía.',
-      link: 'https://etimologia.com/pedagogia/',
-    },
-    {
-      referencia:
-        'Universidad Internacional de la Rioja, E. (2025, 21 marzo). Qué es la pedagogía y qué hace un pedagogo. UNIR México.',
-      link: 'https://mexico.unir.net/noticias/educacion/que-es-pedagogia/',
-    },
-    {
-      referencia:
-        'LaHistoria, & LaHistoria. (2024, 15 abril). Historia de la pedagogía: Línea del tiempo. LaHistoria.',
+      referencia: 'Alexduve. (2023, abril). Las 10 ventajas del conductismo.',
       link:
-        'https://lahistoria.info/historia-de-la-pedagogia-linea-del-tiempo/',
+        'https://www.alexduve.com/2023/04/las-10-ventajas-del-conductismo.html',
     },
     {
       referencia:
-        'Mato Tamayo, J. Vizuete Toapanta, J. C. & Peralvo Arequipa, C. D. R. (2019). Introducción a la pedagogía: ( ed.). Editorial Académica Universitaria (Edacun).',
+        'Francia, G. (2020, 12 noviembre). Teorías cognitivas: cuáles son, tipos y ejemplos. psicologia-online.com.',
       link:
-        'https://elibro.net/es/ereader/tecnologicadeloriente/151750?page=125',
+        'https://www.psicologia-online.com/teorias-cognitivas-cuales-son-tipos-y-ejemplos-5321.html',
     },
     {
       referencia:
-        'Román, E. A. V. (2018). ¿Pedagogía o ciencias de la educación? Una lucha epistemológica. Revista boletín redipe, 7(9), 56-62.',
-      link: 'https://dialnet.unirioja.es/servlet/articulo?codigo=6557289',
-    },
-    {
-      referencia:
-        'Pancorbo, H. P. (1988). La pedagogía: Ciencia de la Educación. Revista Educación, 31-39.',
+        'Orbegoso. (2024). Teoría cognitiva y sus representantes. tauniversity.org.',
       link:
-        'https://revistas.ucr.ac.cr/index.php/educacion/article/download/18469/18634',
+        'https://tauniversity.org/sites/default/files/teoria_cognitiva_y_sus_representantes.pdf',
     },
     {
       referencia:
-        'Boarini, M. G., Portela de Nieto, A. I., & Di Marco, M. E. (2020). Epistemología y educación: ciencias de la educación e investigación educativa desde una mirada epistemológica.',
-      link: 'https://ri.conicet.gov.ar/handle/11336/143814',
-    },
-    {
-      referencia:
-        'Blanco, A. M., & Quitora, L. C. (2000). Los modelos pedagógicos. Universidad Abierta: revista del Instituto de Educación a Distancia de la Universidad de Tolima, 7, 1-10.',
+        'Sanchis, S. (2020, 18 noviembre). La teoría del desarrollo cognitivo de Piaget. psicologia-online.com.',
       link:
-        'https://pedroboza.wordpress.com/wp-content/uploads/2008/10/2-2-los-modelos-pedagogicos.pdf',
+        'https://www.psicologia-online.com/la-teoria-del-desarrollo-cognitivo-de-piaget-4952.html',
     },
     {
       referencia:
-        'Ocaña, A. O. (2013). Modelos pedagógicos y teorías del aprendizaje. Ediciones de la U.',
+        'Abate de Tadeo, N. (2024). La psicología cognitiva y sus aportes al proceso de aprendizaje. Universidad Nacional Autónoma de México.',
       link:
-        'https://www.researchgate.net/profile/Alexander-Ortiz-Ocana/publication/315835163_Modelos_Pedagogicos_y_Teorias_del_Aprendizaje/links/6408bd3f0d98a97717ecb190/Modelos-Pedagogicos-y-Teorias-del-Aprendizaje.pdf',
+        'https://www.paginaspersonales.unam.mx/files/574/psicologia_cognitiva.pdf',
     },
     {
       referencia:
-        'Aparisi, L. (2023, 8 noviembre). ¿Cuál es el objetivo de los modelos pedagógicos? Cadella - Escuela de Educación Viva y Activa.',
+        'Psicorevista. (2023, 21 mayo). Modelo cognitivo de aprendizaje: la clave para potenciar el proceso educativo - psicorevista. Psicorevista.',
+      link: 'https://psicorevista.com/aprendizaje/modelo-cognitivo/',
+    },
+    {
+      referencia:
+        'Benítez-Vargas, B. (2023). El constructivismo. Con-Ciencia Boletín Científico de la Escuela Preparatoria No. 3, 10(19), 65-66.',
       link:
-        'https://cadella.es/cual-es-el-objetivo-de-los-modelos-pedagogicos/',
+        'https://repository.uaeh.edu.mx/revistas/index.php/prepa3/article/download/10453/9998/',
     },
     {
       referencia:
-        'Tekman Education. (2021). Modelos pedagógicos: Qué son y cuáles son los fundamentales en educación.',
-      link: 'https://www.tekmaneducation.com/modelos-pedagogicos-en-educacion/',
-    },
-    {
-      referencia:
-        'Sehnem Heck, G., Schneider, C., Güntzel Ramos, M., Prado Amaral, R. (2021). La relación profesor-alumno y su influencia en los procesos de enseñanza y aprendizaje. Revista de estudios y experiencias en educación, 20(42), 137-149.',
+        'Luisa, M. (2023, 15 julio). TEORIAS DEL APRENDIZAJE DE Piaget, Vigotsky, Ausubel y Bruner. Materiales Educativos.',
       link:
-        'https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0718-51622021000100137',
+        'https://materialeseducativos.net/materiales-para-profesores/teorias-del-aprendizaje-de-piaget-vigotsky-ausubel-y-bruner-2/',
     },
     {
       referencia:
-        'Campuseducacion. (2018). Modelo, Método, Metodología… ¿Qué terminología emplear?',
+        'Gracia, J. (2024, 25 noviembre). Aprendizaje constructivista: Qué es, beneficios para la educación y cómo aplicarlo. Diferencia.',
+      link: 'https://diferenciaentre.es/aprendizaje-constructivista/',
+    },
+    {
+      referencia:
+        'Gutiérrez Campos, L. (2012). Conectivismo como teoría de aprendizaje: conceptos, ideas, y posibles limitaciones. Revista Educación y Tecnología, N° 1.',
+      link: 'https://dialnet.unirioja.es/descarga/articulo/4169414.pdf',
+    },
+    {
+      referencia:
+        'Siemens, G. (2004). Conectivismo: Una teoría de aprendizaje para la era digital.',
       link:
-        'https://www.campuseducacion.com/blog/recursos/articulos-campuseducacion/modelo-metodo-metodologia-terminologia-emplear/',
+        'https://www.jorgeinnova.com/2024/10/conectivismo-teoria-de-aprendizaje-para-la-era-digital.html',
     },
     {
       referencia:
-        'Tobón, S. (2019). Metodología de la investigación pedagógica: Un enfoque socioformativo. Revista Espacios, 40(23), 12-25.',
-      link: 'http://www.revistaespacios.com/a19v40n23/19402312.html',
+        'Virginia. (2023, octubre 14). El conectivismo en la educación. Educativos Para. . .',
+      link: 'https://www.educativospara.com/el-conectivismo-en-la-educacion/',
     },
   ],
   glosario: [
     {
-      termino: 'Actitudes',
+      termino: 'Atribución',
       significado:
-        'Disposiciones emocionales o comportamientos que reflejan valores y formas de pensar de los estudiantes. En la pedagogía, se promueve el desarrollo de actitudes positivas como la empatía y la responsabilidad.',
+        'proceso mediante el cual las personas asignan causas a los comportamientos propios y ajenos, según la teoría de Fritz Heider.',
     },
     {
-      termino: 'Aprendizaje',
+      termino: 'Cognitivismo',
       significado:
-        'Proceso mediante el cual los individuos adquieren conocimientos, habilidades, valores y actitudes. Puede concebirse como activo (constructivismo) o pasivo (conductismo), dependiendo del enfoque pedagógico.',
+        'enfoque del aprendizaje que estudia los procesos mentales como la memoria, la atención y la resolución de problemas.',
     },
     {
-      termino: 'Autoridad',
+      termino: 'Conductismo',
       significado:
-        'Rol del docente como líder y guía en el proceso educativo. Puede ser jerárquica, como en el modelo tradicional, o colaborativa, como en el constructivismo.',
+        'teoría psicológica que explica el aprendizaje basado en estímulos y respuestas, mediante condicionamiento clásico y operante.',
     },
     {
-      termino: 'Colaboración',
+      termino: 'Conectivismo',
       significado:
-        'Interacción entre estudiantes y docentes para construir conocimiento de manera conjunta. Es un elemento clave en metodologías activas como el aprendizaje cooperativo.',
+        'modelo de aprendizaje que enfatiza la importancia de las redes y la tecnología para la adquisición de conocimientos.',
     },
     {
-      termino: 'Comunicación',
+      termino: 'Constructivismo',
       significado:
-        'Proceso de intercambio de información entre el docente y los estudiantes. Una comunicación efectiva favorece el aprendizaje y la confianza en el aula.',
+        'teoría que sostiene que los estudiantes construyen activamente su conocimiento a partir de experiencias previas.',
     },
     {
-      termino: 'Conocimientos',
+      termino: 'Disonancia cognitiva',
       significado:
-        'Información que los estudiantes adquieren como parte de los contenidos pedagógicos. Incluyen hechos, conceptos y teorías relevantes para su desarrollo intelectual.',
+        'estado de tensión psicológica que ocurre cuando hay contradicción entre creencias o actitudes, según Leon Festinger.',
     },
     {
-      termino: 'Evaluación',
+      termino: 'Gestos',
       significado:
-        'Proceso de valoración del aprendizaje y la enseñanza, que puede ser formativa, sumativa o diagnóstica. Permite medir el progreso y ofrecer retroalimentación.',
+        'movimientos corporales que transmiten información, incluidos los gestos referenciales, simbólicos y demostrativos.',
     },
     {
-      termino: 'Metodología',
+      termino: 'Metacognición',
       significado:
-        'Conjunto de estrategias, técnicas y recursos utilizados para facilitar el aprendizaje. Debe estar alineada con los objetivos de aprendizaje y el modelo pedagógico.',
+        'capacidad de reflexionar sobre el propio aprendizaje y ajustar estrategias para mejorar la comprensión.',
     },
     {
-      termino: 'Modelo Pedagógico',
+      termino: 'Psicomotricidad',
       significado:
-        'Marco teórico que guía la concepción de la enseñanza y el aprendizaje. Define roles, estrategias y objetivos en el proceso educativo.',
+        'disciplina que estudia la relación entre el movimiento del cuerpo y el desarrollo cognitivo y emocional.',
     },
     {
-      termino: 'Propósitos Educativos',
+      termino: 'Refuerzo',
       significado:
-        'Objetivos generales que se persiguen en el proceso educativo, como formar ciudadanos críticos y autónomos. Son la base de la planificación pedagógica.',
+        'estrategia del conductismo que incrementa la probabilidad de una conducta mediante estímulos positivos o negativos.',
     },
   ],
 }

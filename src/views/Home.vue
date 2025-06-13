@@ -22,7 +22,7 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 La unidad estudia el carácter epistemológico de la pedagogía y su relación con los modelos pedagógicos. Aborda la pedagogía como arte, ciencia y disciplina, su evolución histórica, y sus fundamentos teóricos. Se destacan los componentes clave de los modelos pedagógicos: concepción del aprendizaje y enseñanza, objetivos, contenidos, metodología, evaluación y relación maestro-estudiante. También se analiza la diferencia entre modelo, método y metodología. Se resalta la importancia de seleccionar modelos pedagógicos adecuados para mejorar la calidad educativa y fomentar el desarrollo integral del estudiante en contextos diversos.
+              p.descripcion.mb-4 La unidad aborda las teorías del aprendizaje: conductismo, cognitivismo, constructivismo y conectivismo. El conductismo enfatiza el estímulo-respuesta y el refuerzo. El cognitivismo centra su atención en procesos mentales como memoria y metacognición. El constructivismo valora la construcción activa del conocimiento por el alumno en interacción social. El conectivismo resalta el papel de las redes digitales y la tecnología en el aprendizaje actual. Cada enfoque ofrece herramientas para comprender cómo se aprende y diseñar ambientes educativos efectivos. Su integración favorece un aprendizaje significativo y contextualizado. 
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

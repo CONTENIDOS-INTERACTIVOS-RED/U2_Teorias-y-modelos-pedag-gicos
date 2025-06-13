@@ -2,7 +2,7 @@
   .curso-main-container.creditos-vista
     BannerInterno(subTitulo="SÍNTESIS")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      p(data-aos="fade-up").mb-5 En esta unidad, se han analizado los fundamentos epistemológicos de la pedagogía y su relación con los modelos pedagógicos, estableciendo su relevancia en el ámbito educativo.
+      p(data-aos="fade-up").mb-5 A lo largo de esta unidad, se han analizado las principales <b>teorías del aprendizaje</b>, cada una con enfoques únicos sobre cómo los individuos adquieren conocimientos y desarrollan habilidades. 
 
       .row.justify-content-center
         .col-lg-12.mb-5
